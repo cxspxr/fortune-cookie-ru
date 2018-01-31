@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/caspermadara/fortune-cookie-ru/issues"
   },
-  "homepage": "https://github.com/caspermadara/fortune-cookie-ru#readme"
+  "homepage": "https://github.com/caspermadara/fortune-cookie-ru#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "require-dir": "^0.3.2"
+  }
 }
