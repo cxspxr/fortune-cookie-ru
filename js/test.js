@@ -1,3 +1,3 @@
-const fortune = require('cookie-fortune-ru');
+const fortune = require('../index.js');
 
-document.querySelector('#fortune').innerHTML = JSON.parse(fortune.get());
+document.querySelector('#fortune').innerHTML = fortune.get();
