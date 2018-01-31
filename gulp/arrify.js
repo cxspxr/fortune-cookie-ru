@@ -15,7 +15,7 @@ const arrify = function(file) {
     var phrase = '';
     rl.on('line', function(line) {
         if (line.indexOf('%') !== 0) {
-            phrase+= line;
+            phrase+= line + '\n';
         } else {
             results.push(phrase);
             phrase = '';
@@ -23,7 +23,7 @@ const arrify = function(file) {
     });
 
     rl.on('close', function() {
-        fs.writeFile('array.txt', JSON.stringify(results, null), function(err) {
+        fs.writeFile('array.json', JSON.stringify(results, null), function(err) {
             if(err) {
               console.log(err);
             }
