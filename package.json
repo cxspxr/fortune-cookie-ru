@@ -8,17 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/caspermadara/fortune-cookie-ru.git"
+    "url": "git+https://github.com/artelydev/fortune-cookie-ru.git"
   },
   "keywords": [
     "fortune"
   ],
-  "author": "Casper Madara <caspertraveler@gmail.com>",
+  "author": "Yaroslav Kasperovych <caspertraveler@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/caspermadara/fortune-cookie-ru/issues"
+    "url": "https://github.com/artelydev/fortune-cookie-ru/issues"
   },
-  "homepage": "https://github.com/caspermadara/fortune-cookie-ru#readme",
+  "homepage": "https://github.com/artelydev/fortune-cookie-ru#readme",
   "dependencies": {
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
