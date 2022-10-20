@@ -1,6 +1,6 @@
 {
   "name": "fortune-cookie-ru",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Random fortune cookie citations in russian",
   "main": "index.js",
   "scripts": {
