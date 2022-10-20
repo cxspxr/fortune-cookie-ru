@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/caspermadara/fortune-cookie-ru#readme",
   "dependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
     "require-dir": "^0.3.2",
     "through": "^2.3.8"
